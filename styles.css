@@ -1,18 +1,14 @@
-:root{
-  --warna-primary: linear-gradient(to right, #00d9a5 70%, #fefefe 100%);
-  --warna-sekunder: #157899;
-  --warna-tulisan: #000;
-  --warna-tulisan2 : #fff;
-}
+
 
 body {
   font-size: 15px;
+  /* color: #505050; */
   font-family: "Roboto Condensed", sans-serif;
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
   overflow-x: hidden;
-  background: var(--warna-primary);
+  background: linear-gradient(to right, #00d9a5 70%, #fefefe 100%);
 }
 
 .wrapper {
@@ -20,29 +16,28 @@ body {
 }
 
 .wrapper h1 {
-  font-size: clamp(30px, 8vw, 80px);
-  padding: .5rem;
-  margin-bottom: 2rem;
+  font-size: 80px;
+  margin-top: 1px;
   text-align: center;
   justify-content: center;
   font-weight: bold;
-  color: var(--warna-tulisan);
+  color: #000000;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
 .wrapper h2 {
-  font-size: clamp(20px, 4vw, 30px);
-  color: var(--warna-tulisan);
+  font-size: 30px;
+  color: #000000;
   margin-top: 15vh;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  border: 1px solid var(--warna-tulisan);
+  border: 2px solid #000000;
   width: 400px;
   font-weight: bold;
   border-radius: 10px;
   padding: 5px;
-  background: var(--warna-primary);
+  background: linear-gradient(to right, #00d9a5 70%, #fefefe 100%);
 }
 
 .wrapper h3 {
@@ -51,12 +46,18 @@ body {
   text-align: center;
   justify-content: center;
   font-weight: bold;
-  color: var(--warna-tulisan);
+  color: #ffffff;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
 /* button */
+
+/* *{
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+    } */
 
 a {
   border: none;
@@ -70,11 +71,11 @@ a {
   margin-top: 10 0px !important;
 }
 
-.btn {
+.btn--accent {
   padding: 10px 100px;
   border-radius: 550000px;
   cursor: pointer;
-  border: var(--warna-tulisan2) 1px solid;
+  /* color: #ffffff; */
   transition: all 0.4s;
   font-size: 20px;
   font-weight: bold;
@@ -83,27 +84,38 @@ a {
 }
 
 .btn--primary {
-  background-color: var(--warna-primary);
-  color: var(--warna-tulisan);
-  border: solid .2rem var(--warna-tulisan);
+  padding: 10px 30px;
+  border-radius: 550000px;
+  cursor: pointer;
+  /* color: #ffffff; */
+  transition: all 0.4s;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.btn--primary {
+  background-color: #00d9a5;
+  border: #fff 2px solid;
 }
 
 .btn--primary:hover {
-  color: var(--warna-tulisan2);
-  background: var(--warna-tulisan);
+  color: #ffffff;
+  background: linear-gradient(to right, #00d9a5 70%, #fefefe 120%);
   box-shadow: 0 4px 15px 0 rgba(245,245,245);
-  border: var(--warna-tulisan) 1px solid;
+  border: #000 2px solid;
 }
 
 .btn--accent {
-  background-color: var(--warna-tulisan);
+  background-color: #00d9a5;
+  border: #fff 2px solid;
 }
 
 .btn--accent:hover {
-  color: var(--warna-tulisan);
-  background: var(--warna-primary);
+  color: #ffffff;
+  background: linear-gradient(to right, #00d9a5 70%, #fefefe 110%);
   box-shadow: 0 4px 15px 0 rgba(245,245,245);
-  border: #000 1px solid;
+  border: #000 2px solid;
 }
 
 @media screen and (max-width: 426px) {
@@ -119,40 +131,45 @@ a {
     margin-bottom: 50px !important;
     justify-content: center;
     font-weight: bold;
-    color: var(--warna-tulisan);
+    color: #ffffff;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
 
   .link-web a{
-      font-size: 20px;
+      font-size: 15px;
   }
 
   .wrapper h1 {
+    font-size: 25px !important;
+    margin-top: 1px !important;
     text-align: center;
+    margin-bottom: 70px;
     margin-top: 30px !important;
     justify-content: center;
     font-weight: bold;
-    color: var(--warna-tulisan);
+    color: #000;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
   .wrapper h2 {
-    color: var(--warna-tulisan);
+    font-size: 25px;
+    color: #000;
     margin-top: 90px !important;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
-    border: 1px solid var(--warna-tulisan);
+    border: 1px solid #000;
+    width: 320px;
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 5px;
-    background: var(--warna-primary);
-    width: auto;
+    background: linear-gradient(to right, #00d9a5 70%, #fefefe 100%);
   }
   .btn {
     padding: 10px 10px;
     border-radius: 550000px;
     cursor: pointer;
+    /* color: #ffffff; */
     transition: all 0.4s;
     font-size: 20px;
     font-weight: bold;
