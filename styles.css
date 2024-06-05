@@ -41,12 +41,12 @@ body {
 }
 
 .wrapper h3 {
-  font-size: 30px;
+  font-size: 80px;
   margin-top: 1px;
   text-align: center;
   justify-content: center;
   font-weight: bold;
-  color: #ffffff;
+  color: #000000;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -125,13 +125,13 @@ a {
     margin-bottom: 10px;
   }
   .wrapper h3 {
-    font-size: 20px;
+    font-size: 25px !important;
     margin-top: 1px !important;
     text-align: center;
-    margin-bottom: 50px !important;
+    margin-bottom: 70px;
     justify-content: center;
     font-weight: bold;
-    color: #ffffff;
+    color: #000;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
@@ -144,7 +144,7 @@ a {
     font-size: 25px !important;
     margin-top: 1px !important;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
     margin-top: 30px !important;
     justify-content: center;
     font-weight: bold;
