@@ -171,6 +171,14 @@ form .button input:hover {
   color: var(--warna-tulisan2);
 }
 
+.barrier {
+  width: 100%;
+  text-align: right;
+  margin-top: -20px;
+  padding-right: 10px;
+  color: #737373;
+}
+
 @media (max-width: 426px) {
   form .user-details .input-box {
     margin-bottom: 15px;
